@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Moon, Sun, Mail, Github, Linkedin, Menu, X, Award, Briefcase, Code, GraduationCap, Hammer, FileText, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Moon, Sun, Mail, Github, Linkedin, Menu, X, Award, Briefcase, Code, GraduationCap, Hammer, FileText, ChevronLeft, ChevronRight, Youtube } from 'lucide-react';
 
 export default function Portfolio() {
   const [isDark, setIsDark] = useState(true);
@@ -293,11 +293,13 @@ export default function Portfolio() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Full Stack Engineer</span>
-              <span className="block mt-2">and AI Engineer</span>
+            <h1 className="text-4xl font-bold">
+              <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Software Engineer</span>
+              <span className="block mt-2">and Frontend Developer</span>
             </h1>
-            <p className={`text-xl ${isDark ? 'text-gray-400' : 'text-gray-600'} mb-8`}>with expertise in AI Agents</p>
+            <p className={`text-xl ${isDark ? 'text-gray-400' : 'text-gray-600'} mb-8`}>
+              specializing in building responsive and interactive web applications
+            </p>
             <div className="flex justify-center gap-4">
             <a href="/resume/PATRICK_JOHN_FAJARDO_RESUME (1).pdf" target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full hover:shadow-lg transition-shadow flex items-center gap-2">
@@ -544,6 +546,10 @@ export default function Portfolio() {
             <a href="https://www.linkedin.com/in/patrickjohn01" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 px-6 py-3 ${cardBg} border ${borderClass} rounded-full hover:shadow-lg transition-shadow`}>
               <Linkedin size={20} />LinkedIn
             </a>
+            <a href="https://www.youtube.com/@techtutorrr" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-2 px-6 py-3 ${cardBg} border ${borderClass} rounded-full hover:shadow-lg transition-shadow`}>
+              <Youtube size={20} />Youtube
+            </a>
+
           </div>
         </div>
       </section>
