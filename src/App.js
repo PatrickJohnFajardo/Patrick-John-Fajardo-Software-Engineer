@@ -299,9 +299,11 @@ export default function Portfolio() {
             </h1>
             <p className={`text-xl ${isDark ? 'text-gray-400' : 'text-gray-600'} mb-8`}>with expertise in AI Agents</p>
             <div className="flex justify-center gap-4">
+            <a href="/resume/PATRICK_JOHN_FAJARDO_RESUME (1).pdf" target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full hover:shadow-lg transition-shadow flex items-center gap-2">
-                <FileText size={20} />Resume
+                <FileText size={20} /> Resume
               </button>
+            </a>
               <button onClick={() => scrollToSection('contact')} className={`px-8 py-3 border ${borderClass} rounded-full hover:bg-gray-700 transition-colors flex items-center gap-2`}>
                 <Mail size={20} />Contact
               </button>
