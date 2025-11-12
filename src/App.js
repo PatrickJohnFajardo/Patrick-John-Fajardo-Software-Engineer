@@ -3,7 +3,7 @@ import { Moon, Sun, Mail, Github, Linkedin, Menu, X, Award, Briefcase, Code, Gra
 
 export default function Portfolio() {
   const [isDark, setIsDark] = useState(true);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [, setIsMenuOpen] = useState(false);
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
   const [hoveredMenuItem, setHoveredMenuItem] = useState(null);
   const [activeSection, setActiveSection] = useState('home');
