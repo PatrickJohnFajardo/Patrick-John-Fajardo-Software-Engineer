@@ -40,6 +40,7 @@ export default function Portfolio() {
 
   const skills = [
     { name: 'PHP', icon: '/icons/php.svg' },
+    { name: 'React', icon: '/icons/react.png' },
     { name: 'Python', icon: '/icons/python.svg' },
     { name: 'JavaScript', icon: '/icons/javascript.svg' },
     { name: 'Canva', icon: '/icons/canva.png' },
