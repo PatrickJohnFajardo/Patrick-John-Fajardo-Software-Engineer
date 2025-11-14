@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Moon, Sun, Mail, Github, Linkedin, Menu, X, Award, Briefcase, Code, GraduationCap, Hammer, FileText, ChevronLeft, ChevronRight, Youtube } from 'lucide-react';
 
 export default function Portfolio() {
@@ -56,7 +56,6 @@ export default function Portfolio() {
     { name: 'OpenAI', icon: '/icons/openai.svg' },
     { name: 'Vercel', icon: '/icons/vercel.svg' },
     { name: 'VS Code', icon: '/icons/vscode.svg' },
-    { name: 'Redhat', icon: '/icons/redhat.png' },
   ];
 
   const experiences = [
@@ -71,7 +70,7 @@ export default function Portfolio() {
         'Monitors the performance of the system and identifies downed servers',
         'Setting up equipment for employee use, ensuring proper installation of cables, operating systems, or appropriate software, and performing minor and major repairs to hardware, software, or peripheral equipment following design or installation specifications'
       ],
-      logo: '/icons/cglending.png',
+      logo: '/icons/cg-lending.svg',
       //link: '#'
     },
     {
