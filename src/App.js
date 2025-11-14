@@ -56,7 +56,7 @@ export default function Portfolio() {
     { name: 'OpenAI', icon: '/icons/openai.svg' },
     { name: 'Vercel', icon: '/icons/vercel.svg' },
     { name: 'VS Code', icon: '/icons/vscode.svg' },
-    { name: 'Redhat', icon: '/icons/redhat.svg' },
+    { name: 'Redhat', icon: '/icons/redhat.png' },
   ];
 
   const experiences = [
@@ -71,7 +71,7 @@ export default function Portfolio() {
         'Monitors the performance of the system and identifies downed servers',
         'Setting up equipment for employee use, ensuring proper installation of cables, operating systems, or appropriate software, and performing minor and major repairs to hardware, software, or peripheral equipment following design or installation specifications'
       ],
-      logo: '/icons/cg-lending.png',
+      logo: '/icons/cglending.png',
       //link: '#'
     },
     {
