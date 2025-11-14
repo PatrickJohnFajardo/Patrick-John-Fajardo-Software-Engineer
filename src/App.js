@@ -70,7 +70,7 @@ export default function Portfolio() {
         'Monitors the performance of the system and identifies downed servers',
         'Setting up equipment for employee use, ensuring proper installation of cables, operating systems, or appropriate software, and performing minor and major repairs to hardware, software, or peripheral equipment following design or installation specifications'
       ],
-      logo: '/icons/cg-lending.svg',
+      logo: '/icons/cg-lending.png',
       //link: '#'
     },
     {
