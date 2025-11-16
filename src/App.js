@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Moon, Sun, Mail, Github, Linkedin, Menu, X, Award, Briefcase, Code, GraduationCap, Hammer, FileText, ChevronLeft, ChevronRight, Youtube } from 'lucide-react';
+import TypeEraseLoop from './TypeEraseLoop';
 
 export default function Portfolio() {
   const [isDark, setIsDark] = useState(true);
@@ -316,7 +317,7 @@ export default function Portfolio() {
             </div>
             <h1 className="text-4xl font-bold">
               <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Software Engineer</span>
-              <span className="block mt-2">and Frontend Developer</span>
+              <TypeEraseLoop/>
             </h1>
             <p className={`text-xl ${isDark ? 'text-gray-400' : 'text-gray-600'} mb-8`}>
               specializing in building responsive and interactive web applications
